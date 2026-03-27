@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-// ===== CONTEXT PROVIDERS =====
+// ===== CONTEXT PROVIDERS     =====
 import { AuthProvider } from "./context/AuthContext";
 import { PermissionProvider } from "./context/PermissionContext";
 import { ThemeProvider } from "./ThemeContext/ThemeContext";
